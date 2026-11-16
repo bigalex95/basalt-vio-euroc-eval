@@ -6,7 +6,7 @@
   },
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "workspaceFolder": "/workspace",
-  // Включаем поддержку GPU (если у вас Nvidia) и GUI
+  // Enable GPU support (if you have Nvidia) and GUI
   "runArgs": [
     "--net=host",
     "--ipc=host",
@@ -28,6 +28,6 @@
       ]
     }
   },
-  // Basalt рекомендует работать от root в контейнере, чтобы не было проблем с правами на запись в /usr/local
+  // Basalt recommends running as root in the container to avoid write-permission issues in /usr/local
   "remoteUser": "root"
 }

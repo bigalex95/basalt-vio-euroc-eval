@@ -456,7 +456,7 @@ def evaluate_dataset(dataset_name, traj_file, gt_file, output_dir):
     save_results_json(results, dataset_output_dir / 'evaluation_results.json')
     
     # --- UPDATED: Save Root Cause Analysis to file ---
-    # Передаем dataset_output_dir
+    # Pass dataset_output_dir
     analyze_worst_errors(ate_metric, traj_ref_sync, dataset_name, dataset_output_dir)
     
     print(f"\n{'='*80}")
@@ -492,7 +492,7 @@ def analyze_worst_errors(ate_metric, traj_ref_sync, dataset_name, output_dir, to
             t = timestamps[i]
             err = errors[i]
             rel_t = t - timestamps[0]
-            # Пишем время и ошибку
+            # Write the time and error
             f.write(f"Timestamp: {t:.3f} (Time from start: {rel_t:.2f}s) --> Error: {err:.4f} m\n")
         
         f.write(f"\nAUTOMATED DIAGNOSIS:\n")
