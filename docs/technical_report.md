@@ -1,6 +1,6 @@
 # Visual–Inertial Odometry / SLAM Assignment — Technical Report
 
-**Project repository:** `bigalex95/VIO-SLAM-Assignment`  
+**Project repository:** `bigalex95/basalt-vio-euroc-eval`  
 **Framework used:** Basalt (visual–inertial odometry)  
 **Dataset:** EuRoC MAV (stereo + IMU + ground truth)  
 **Date:** 2025-12-26  

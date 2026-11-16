@@ -56,8 +56,8 @@ The values below are **quoted from the literature, not run here**, and may use d
 Prerequisites: Docker with Compose, about 2 GB for datasets and 4 GB for images. Clone with the submodule:
 
 ```bash
-git clone --recurse-submodules https://github.com/bigalex95/VIO-SLAM-Assignment
-cd VIO-SLAM-Assignment
+git clone --recurse-submodules https://github.com/bigalex95/basalt-vio-euroc-eval
+cd basalt-vio-euroc-eval
 ./scripts/download_euroc.sh      # datasets into data/ (or download manually, see script)
 ```
 
